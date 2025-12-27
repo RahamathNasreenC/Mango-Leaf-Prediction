@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Datasets (do not upload images)
+all_images/
+data/
+
+# Zip files
+*.zip
+
+# Environment
+.env
+
+# OS files
+.DS_Store
