@@ -6,14 +6,14 @@ import numpy as np
 from PIL import Image
 import os
 
-# -----------------------
-# 1️⃣ Load trained model
-# -----------------------
+
+# Load trained model
+
 model = tf.keras.models.load_model('models/leaf_model_transfer.h5')
 
-# -----------------------
-# 2️⃣ Load class names from training folder
-# -----------------------
+
+# Load class names from training folder
+
 train_dir = 'data/train'
 folders = sorted(os.listdir(train_dir))  # alphabetical order
 class_names = folders  # matches model indices
